@@ -1,1 +1,1 @@
-# go-configuration-module
+# go-config-initialization
