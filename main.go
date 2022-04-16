@@ -24,7 +24,6 @@ func initializePackages(cfg config.Config) {
 	err := initializer.New().InitializePackages(cfg)
 	if err != nil {
 		panic(fmt.Errorf("config: %w", err))
-		return
 	}
 	log.Println("All good!")
 }
